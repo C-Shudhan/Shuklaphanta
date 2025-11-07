@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#head{
+  font-size: 32px;;
+}
+*{
+  color:white;
+}
+body{
+  background-color:#000000da;
+  font-family: "Poppins";
+}
+
+#nav{
+  display:flex;
+  justify-content: space-between;
+  margin-top:10px;
+  align-items: center;
+}
+
+#nav-bar{
+  display:flex;
+  gap:30px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+#abt{
+  margin-left: 20px;
+}
+
+#btn{
+  background-color:transparent;
+  padding:10px;
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+}
+
+#contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+#left, #right{
+  width: 50%;
+  background-color: black;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px;
+}
+
+#img {
+  width: 50%;
+}
+
+#img img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px;
+}
+
+#contents:nth-child(even) #left{
+  order: 2;
+}
+
+#contents:nth-child(even) #right{
+  order: 2;
+}
+
+#features ul{
+  list-style: square;
+}
+
+#features{
+  margin-top: 100px;
+}
+
+#ddy1{
+  border:1px dotted white;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color:#b5ba3482 ;
+  width: 450px;
+  margin-left: 430px;
+  margin-top: 120px;
+}
+
+#footer{
+  box-sizing: border-box;
+  border:1px solid transparent;
+  padding:50px;
+  text-align: center;
+  margin:0px;
+  background-color: black;
+}
+#footer button{
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid black;
+  width: 50px;
+}
+
+#tf-1 #img1{
+  border:1px solid white;
+  border-radius: 12px 12px 0px 0px;
+}
+#tf-1{
+  border:2px solid white;
+  text-align: center;
+  width: 618px;
+  border-radius: 12px;
+  background-color: black;
+  box-shadow: 0px 4px 10px;
+  backdrop-filter: blur(5px);
+}
+
+#tf-1 #img2{
+  border:1px solid white;
+  border-radius: 12px 12px 0px 0px;
+  width:617px;
+  height: 324px;
+}
+
+#tf-1 #img3{
+  border:1px solid white;
+  border-radius: 12px 12px 0px 0px;
+  width:617px;
+  height: 324px;
+}
+
+#df{
+  display:flex;
+  justify-content: space-around;
+}
+
+.center{
+  margin-left: 390px;
+  margin-top:60px;
+}
+
+
+#i1{
+  border-radius: 12px 0px 0px 0px;
+}
+#i2{
+  border-radius: 0px 12px 0px 0px;
+}
+#i3{
+  border-radius: 0px 0px 0px 12px;
+}
+#i4{
+  border-radius: 0px 0px 12px 0px;
+}
+
+#cont img{
+  width:309px;
+  height:162px;
+}
+
+#images{
+  box-sizing: border-box;
+  border:1px solid white;
+  box-shadow: 0px 4px 10px;
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  width:625px;
+  height:330px;
+}
+
+
+#df2{
+  display:flex;
+  justify-content: space-around;
+}
+
+
+
+
+#images-2{
+  margin-top:50px;
+  box-sizing: border-box;
+  border:1px solid white;
+  box-shadow: 0px 4px 10px;
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  width:625px;
+  height:330px;
+}
+
+
+#fd img, #fd2 img{
+  width:400px;
+  height:300px;
+  border-radius: 8px;
+  box-shadow:0px 4px 10px;
+  backdrop-filter: blur(5px);
+}
+#fd{
+  display:flex;
+  justify-content: space-around;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+
+#time{
+  box-sizing: border-box;
+  border:1px solid transparent;
+  border-radius: 12px;
+  background-color: black;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 4px 10px;
+  padding:8px;
+  margin-top: 20px;
+}
+#t{
+  margin-left: 12px;
+}
+
+
+#rs{
+  display:flex;
+  justify-content: space-around;
+}
+#rs1 ul{
+  list-style: disc;
+}
+
+
+#container{
+  box-sizing: border-box;
+  border:1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px;
+  backdrop-filter: blur(7px);
+  background-color: black;
+  padding:6px;
+  width:550px;
+  margin-left: 450px;
+  padding:12px;
+}
+
+#form{
+  display:flex;
+  flex-direction: column;
+}
+
+#form input{
+  width:450px;
+  padding:8px;
+}
+
+select{
+  width:100px;
+  padding:10px;
+}
+
+#kk input{
+  width:40px;
+}
+
+
+#form button{
+  color:black;
+  background-color:lime;
+  font-weight: bold;
+  padding:20px;
+  border-radius: 6px;
+}
+
+#textarea{
+  width:560px;
+  height:110px;
+  padding:12px;
+}
+
+
+#done{
+  background-color: black;
+  box-sizing: border-box;
+  border:1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0px 5px 11px;
+  backdrop-filter: blur(8px);
+  width:550px;
+  margin-left:450px;
+  margin-top:450px;
+}
+#m{
+  display:flex;
+  justify-content: space-around;
+}
+
+
+
+/* -------------------- Explore Page Responsive Design -------------------- */
+@media (max-width: 768px) {
+
+  /* --- Header & Navigation --- */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px white;
+    padding: 10px 0;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #btn {
+    width: 90%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+
+  /* --- Geography section --- */
+  #df2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  #images, #images-2 {
+    width: 95%;
+    height: auto;
+  }
+
+  #images img, #images-2 img {
+    width: 48%;
+    height: auto;
+    margin: 1%;
+    border-radius: 8px;
+  }
+
+  #images strong {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* --- Flora & Fauna sections --- */
+  #fd {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #fd img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* --- Did You Know section --- */
+  #ddy1 {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* --- Rare species --- */
+  #rs {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  #rs1 {
+    width: 100%;
+  }
+
+  #rs1 ul {
+    padding-left: 20px;
+  }
+
+  /* --- Visiting information --- */
+  #time {
+    width: 95%;
+    margin: 30px auto;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  #t {
+    margin-left: 0;
+  }
+
+  /* --- Footer --- */
+  #footer {
+    padding: 30px 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #footer button {
+    width: 80px;
+    font-size: 14px;
+  }
+}
+
+/* --- Extra small screens (phones <480px) --- */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  #nav-bar li {
+    font-size: 14px;
+  }
+
+  #images img, #images-2 img {
+    width: 100%;
+  }
+
+  #fd img {
+    width: 100%;
+  }
+
+  #ddy1 {
+    font-size: 13px;
+  }
+
+  #footer {
+    font-size: 12px;
+  }
+}
+
+/* -------------------- Responsive Design -------------------- */
+@media (max-width: 768px) {
+
+  /* Base adjustments */
+  body {
+    padding: 0 10px;
+  }
+
+  #head {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* --- NAVIGATION BAR --- */
+  #nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px white;
+    padding: 10px 0;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+  }
+
+  #nav-bar li, #abt a {
+    font-size: 16px;
+  }
+
+  #btn {
+    width: 90%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+
+  /* --- PARK CONTENT SECTIONS --- */
+  #contents {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  /* Make images come first for all */
+  #contents > #img {
+    order: -1;
+    width: 100%;
+  }
+
+  #img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #left, #right {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  /* --- DID YOU KNOW SECTION --- */
+  #ddy1 {
+    width: 95%;
+    margin: 40px auto;
+    font-size: 14px;
+  }
+
+  /* --- FEATURES SECTION --- */
+  #features {
+    width: 100%;
+    margin-top: 60px;
+    padding: 0 10px;
+  }
+
+  #features ul {
+    padding-left: 20px;
+  }
+
+  /* --- TOUR FEATURES (cards) --- */
+  #df {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  #tf-1 {
+    width: 90%;
+    text-align: center;
+  }
+
+  #tf-1 img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .center {
+    margin: 20px auto;
+  }
+
+  /* --- FOOTER --- */
+  #footer {
+    padding: 30px 10px;
+    font-size: 14px;
+  }
+
+  #footer button {
+    width: 80px;
+    font-size: 14px;
+  }
+
+  /* --- FORMS, CONTAINERS, ETC --- */
+  #container, #done {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  #form input,
+  #textarea {
+    width: 100%;
+  }
+}
+
+/* Extra small screens (phones <480px) */
+@media (max-width: 480px) {
+  #head {
+    font-size: 18px;
+  }
+
+  #nav {
+    padding: 8px 0;
+  }
+
+  #nav-bar li {
+    font-size: 14px;
+  }
+
+  #contents {
+    gap: 10px;
+  }
+
+  #left, #right {
+    font-size: 14px;
+  }
+
+  #ddy1 {
+    font-size: 13px;
+  }
+
+  #footer {
+    font-size: 12px;
+  }
+}
